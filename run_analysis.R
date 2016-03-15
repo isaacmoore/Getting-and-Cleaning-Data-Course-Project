@@ -19,7 +19,7 @@ test <- cbind(xTest, yTest, subjectTest)
 # ----- Merge all data together -----
 allData <- rbind(train, test)
 
-# ----- Filter mean and std from allData -----
+# ----- Filter mean and std -----
 meanstd <- grep(".*(mean|std).*", features$V2)
 
 # ----- Add titles -----
